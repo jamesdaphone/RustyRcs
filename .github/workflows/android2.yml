@@ -7,13 +7,11 @@ on:
     branches: [ "main" ]
 
 jobs:
+
   build:
 
-    runs-on: [pagpagphone-1]
+    runs-on: [self-hosted]
 
-    strategy:
-      matrix:
-        node-version: [20]
 
     steps:
     - name: Checkout code
