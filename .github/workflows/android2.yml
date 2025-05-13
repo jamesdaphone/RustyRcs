@@ -32,7 +32,7 @@ jobs:
         wget https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip
         mkdir -p $HOME/sdk/cmdline-tools
         unzip -q commandlinetools-linux-8512546_latest.zip -d $HOME/sdk/cmdline-tools
-        yes | $HOME/sdk/cmdline-tools/cmdline-tools/bin/sdkmanager --sdk_root=$HOME/sdk "platform-tools" "platforms;android-30" "build-tools;30.0.3" "ndk;21.3.6528147"
+        yes | $HOME/sdk/cmdline-tools/cmdline-tools/bin/sdkmanager --sdk_root=$HOME/sdk "platform-tools" "platforms;android-30" "build-tools;30.0.3" 
         echo "export ANDROID_SDK_ROOT=$HOME/sdk" >> $GITHUB_ENV
         echo "export PATH=$PATH:$HOME/sdk/platform-tools" >> $GITHUB_ENV
 
