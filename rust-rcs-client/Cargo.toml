@@ -1,0 +1,42 @@
+[package]
+name = "rust-rcs-client"
+version = "0.5.4"
+edition = "2021"
+description = "A simple, workable RCS client library."
+license = "Apache-2.0"
+resolver = "2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+
+name = "rust_rcs_client"
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+
+rust-rcs-core = { path = "../rust-rcs-core", version = "0.3" }
+
+rust-strict-sdp = { version = "0.1" }
+
+backtrace = { version = "0.3" }
+base64 = { version = "0.21" }
+chrono = { version = "0.4" }
+cookie = { version = "0.18" }
+futures = { version = "0.3" }
+libc = { version = "0.2" }
+quick-xml = { version = "0.31" }
+rustls = { version = "0.22" }
+rustls-pemfile = { version = "2.0" }
+tokio = { version = "1.35", features = ["rt-multi-thread"] }
+tokio-stream = { version = "0.1" }
+tokio-util = { version = "0.7", features = ["compat"] }
+url = { version = "2.5" }
+urlencoding = { version = "2.1" }
+uuid = { version = "1.6", features = ["v4"] }
+walkdir = { version = "2.4" }
+
+[features]
+default = []
+android = ["rust-rcs-core/android"]
+ohos = ["rust-rcs-core/ohos"]
