@@ -50,11 +50,11 @@ jobs:
 
     - name: Build Rust components
       run: |
-        cargo binstall --no-confirm cross
+        cargo install --no-confirm cross
         cd rust-rcs-core
-        cargo build --release
+        cross build --target aarch64-linux-android --release
         cd ../rust-rcs-client
-        cargo build --release
+        cross build --target aarch64-linux-android --release
         mkdir -p ../app/src/main/cpp/libs/arm64-v8a/rust_rcs/lib/
         cp target/release/librust_rcs_client.so ../app/src/main/cpp/libs/arm64-v8a/rust_rcs/lib/
 
