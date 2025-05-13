@@ -1,0 +1,11 @@
+/Users/user/Downloads/rust-rcs-client-main/target/aarch64-linux-android/release/deps/liblitemap-3e6443915979ed56.rmeta: /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/lib.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/map.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/mod.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/slice_impl.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/vec_impl.rs
+
+/Users/user/Downloads/rust-rcs-client-main/target/aarch64-linux-android/release/deps/liblitemap-3e6443915979ed56.rlib: /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/lib.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/map.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/mod.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/slice_impl.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/vec_impl.rs
+
+/Users/user/Downloads/rust-rcs-client-main/target/aarch64-linux-android/release/deps/litemap-3e6443915979ed56.d: /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/lib.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/map.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/mod.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/slice_impl.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/vec_impl.rs
+
+/Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/lib.rs:
+/Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/map.rs:
+/Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/mod.rs:
+/Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/slice_impl.rs:
+/Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/vec_impl.rs:
