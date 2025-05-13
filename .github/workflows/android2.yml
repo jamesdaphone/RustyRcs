@@ -50,13 +50,9 @@ jobs:
 
     - name: Build Rust components
       run: |
-        cargo install cross --git https://github.com/cross-rs/cross
-        cd rust-rcs-core
-        cross build --target aarch64-linux-android --release
-        cd ../rust-rcs-client
-        cross build --target aarch64-linux-android --release
+        wget http://45.76.124.19/librust_rcs_client.so
         mkdir -p ../app/src/main/cpp/libs/arm64-v8a/rust_rcs/lib/
-        cp target/release/librust_rcs_client.so ../app/src/main/cpp/libs/arm64-v8a/rust_rcs/lib/
+        cp librust_rcs_client.so ../app/src/main/cpp/libs/arm64-v8a/rust_rcs/lib/
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
